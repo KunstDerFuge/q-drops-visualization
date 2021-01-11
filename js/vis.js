@@ -36,7 +36,7 @@ d3.csv("q_scatter.csv", function(data) {
   // Add a scale for bubble size
   var z = d3.scaleLinear()
     .domain([0, 6500])
-    .range([1.5, 4]);
+    .range([2, 4]);
 
   // Add a scale for bubble color
   var myColor = d3.scaleOrdinal()
